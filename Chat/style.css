@@ -1,0 +1,56 @@
+
+body {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fkartinkin.net%2Fuploads%2Fposts%2F2021-01%2Fthumbs%2F1610908401_24-p-strogii-ofitsialnii-fon-dlya-prezentatsii-28.jpg&f=1&nofb=1&ipt=e2832743e4e5a68fe0b9f10ed2582024e4471f4cc71b9e865f61231293b6c6d1&ipo=images);
+    background-size: 100%;
+   
+}
+.avl {
+    display: flex;
+    direction: ltr;
+    justify-content: center;
+    width: 700px;
+    padding: 10px;
+}
+.avl p {
+    padding:5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+.avl h4 {
+    margin-right: 10px;
+}
+.avr {
+    display: flex;
+    direction: rtl;
+    justify-content: center;
+    width: 700px;
+    padding: 10px;
+}
+    
+.avr p {
+    padding:5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+.avr h4 {
+    margin-left: 10px;
+}
+img {
+    width: 60px;
+@media (max-width:800px) {
+    div {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    @media (max-width:500px) {
+    div {
+        flex-direction: column;
+        align-items: center;
+        max-height: 800px;
+    }   
+    
+    }
+}
